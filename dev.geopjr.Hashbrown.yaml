@@ -22,7 +22,6 @@ modules:
       - type: git
         url: https://github.com/libevent/libevent.git
         tag: release-2.1.12-stable
-
   - name: hashbrown
     buildsystem: simple
     build-commands:
