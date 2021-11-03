@@ -36,8 +36,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/GeopJr/Hashbrown.git
-        tag: v1.3.4
-        commit: c399c2c96b94667c239c8c73446329e1a68d2123
+        tag: v2.0.0
+        commit: 71ad29b98c09369d07dc21b5bd664eb2e8d4b2b5
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
