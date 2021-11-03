@@ -55,7 +55,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/libadwaita.git
-        tag: 1.0.0.alpha.3
+        tag: 1.0.0.alpha.4
   # Hashbrown
   - name: hashbrown
     buildsystem: simple
@@ -70,7 +70,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/GeopJr/Hashbrown.git
-        branch: v2.0.0-dev # TEMP: only during this PR is a draft
+        tag: 2.0.0
+        commit: 71ad29b98c09369d07dc21b5bd664eb2e8d4b2b5
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -80,7 +81,7 @@ modules:
         sha256: 66e51bd2e72363858b5a41755396158d6aaf76b177a51741e4ab2df3323f0ff4
       - type: git
         url: https://github.com/GeopJr/libadwaita.cr.git
-        commit: 672c5d7a31eb3e59439b9d2c98673d5f7b8d1314
+        commit: 75bb4affac8350698eaba9fe39d6936e3cff8d7e
         dest: lib/libadwaita
       - type: git
         url: https://github.com/elorest/compiled_license.git
