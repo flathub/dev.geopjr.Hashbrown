@@ -1,6 +1,6 @@
 app-id: dev.geopjr.Hashbrown
 runtime: org.gnome.Platform
-runtime-version: "41"
+runtime-version: '41'
 sdk: org.gnome.Sdk
 command: hashbrown
 finish-args:
@@ -14,8 +14,8 @@ cleanup:
   - /lib/pkgconfig
   - /share/doc
   - /share/man
-  - "*.a"
-  - "*.la"
+  - '*.a'
+  - '*.la'
 
 modules:
   # Required by Crystal
@@ -70,8 +70,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/GeopJr/Hashbrown.git
-        tag: v2.0.0
-        commit: 71ad29b98c09369d07dc21b5bd664eb2e8d4b2b5
+        tag: v2.1.0
+        commit: 168480419bb9ed8cb158e6dc4e19f1812893c6e8
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
